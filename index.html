@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link id="theme" rel="stylesheet" href="style-theme-1.css">
+
+  <!-- League Spartan Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+
+  <script defer src="app.js"></script>
+
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <h1>calc</h1>
+      <div class="theme">
+        <p class="theme-title">THEME</p>
+        <div class="theme-switch">
+          <p>1 2 3</p>
+          <div class="container-switch">
+            <div onclick="toggleTheme()" class="switch"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="display" class="display"></div>
+
+    <div class="buttons-container">
+      <button id="7">7</button>
+      <button id="8">8</button>
+      <button id="9">9</button>
+      <button id="del">DEL</button>
+
+      <button id="4">4</button>
+      <button id="5">5</button>
+      <button id="6">6</button>
+      <button class="+" id="+">+</button>
+
+      <button id="1">1</button>
+      <button id="2">2</button>
+      <button id="3">3</button>
+      <button class="-" id="-">-</button>
+
+      <button id=".">.</button>
+      <button id="0">0</button>
+      <button id="/">/</button>
+      <button class="x" id="*">x</button>
+
+      <button id="reset">RESET</button>
+      <button class="equal" id="equal">=</button>
+    </div>
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/SamCastle16" target="_blank" rel="noopener">SamCastle16</a>.
+  </footer>
+</body>
+
+</html>
